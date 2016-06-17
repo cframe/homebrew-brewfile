@@ -7,7 +7,6 @@ cask 'caffeine'
 cask 'flux'
 cask 'daisydisk'
 cask 'transmission'
-cask 'heroku-toolbelt'
 cask 'gitx'
 cask 'dropbox'
 cask 'slack'
@@ -18,3 +17,4 @@ cask 'google-chrome'
 
 brew 'homebrew/versions/mysql55', restart_service: true
 brew 'wget'
+brwe 'heroku'
