@@ -1,0 +1,20 @@
+cask_args appdir: '/Applications'
+tap 'caskroom/cask'
+
+cask 'vlc'
+cask 'google-earth-pro'
+cask 'caffeine'
+cask 'flux'
+cask 'daisydisk'
+cask 'transmission'
+cask 'heroku-toolbelt'
+cask 'gitx'
+cask 'dropbox'
+cask 'slack'
+cask 'sequel-pro'
+cask 'textmate'
+cask 'atom'
+cask 'google-chrome'
+
+brew 'mysql', restart_service: true, conflicts_with: ['homebrew/versions/mysql55']
+brew 'wget'
