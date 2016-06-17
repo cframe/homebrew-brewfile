@@ -17,4 +17,5 @@ cask 'google-chrome'
 
 brew 'homebrew/versions/mysql55', restart_service: true
 brew 'wget'
-brwe 'heroku'
+brew 'heroku'
+brew 'rbenv'
