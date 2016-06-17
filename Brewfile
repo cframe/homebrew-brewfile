@@ -16,5 +16,5 @@ cask 'textmate'
 cask 'atom'
 cask 'google-chrome'
 
-brew 'mysql', restart_service: true, conflicts_with: ['homebrew/versions/mysql55']
+brew 'homebrew/versions/mysql55', restart_service: true
 brew 'wget'
